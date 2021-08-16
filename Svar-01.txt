@@ -1,3 +1,4 @@
+https://github.com/AdvancingHermit/ProgAfl
 
 Afleveringsopgave 01
 --------------------
@@ -13,6 +14,7 @@ Ja, processing viser de danske bogstaver korrekt.
 2) Pde: Hvad er svaret på følgende kommando:
 		println( 3.3 == 1.1 + 1.1 + 1.1 );
 	- Kan du forklare resultatet ?
+Det er fordi at floats bliver afrundet lidt upræcist af computeren og derfor bliver 1.1+1.1+1.1 lig med 3.299999999999999999999999999999999999999 eller noget lignende
 
 
 3) Java: Upload dit 'Tjek' program til dit GitHub repository.
